@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BookList</string>
+    <string name="search_hint">Digite o nome de um livro ou autor</string>
+
+    <!-- Textos para serem exibidos quando nenhum livro for encontrado ou não houver conexão internet -->
+    <string name="no_books">Nenhum livro encontrado.\n\nTente digitar parte do nome do livro ou do autor.</string>
+    <string name="no_internet_connection">Não há conexão internet.</string>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/book_details_title"
+        tools:text="Título do livro" />
+
+    <TextView
+        android:id="@+id/subtitle_text_view"
+        style="@style/book_details_subtitle"
+        tools:text="Subtítulo do livro" />
+
+    <TextView
+        android:id="@+id/authors_text_view"
+        style="@style/book_detais"
+        android:layout_marginBottom="@dimen/authors_text_margins"
+        android:layout_marginTop="@dimen/authors_text_margins"
+        tools:text="Autores do livro" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.5"
+            tools:rating="5" />
+
+        <TextView
+            android:id="@+id/rating_count_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/rating_count_margins"
+            android:layout_marginRight="@dimen/rating_count_margins"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="10" />
+
+        <ImageView
+            android:layout_width="@dimen/rating_icon_size"
+            android:layout_height="@dimen/rating_icon_size"
+            android:src="@drawable/ic_person_black_18dp" />
+    </LinearLayout>
+</LinearLayout>
