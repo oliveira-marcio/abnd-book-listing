@@ -15,5 +15,5 @@ App para fazer pesquisas na [Google Books API](https://developers.google.com/boo
 
 ## Copyright
 
-Esse projeto foi desenvolvido por Márcio Souza de Oliveira.
+Esse projeto foi desenvolvido por Márcio Souza de Oliveira em 23/09/2016.
 
